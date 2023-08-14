@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    
+}
+.container h1{
+    position: relative;
+    justify-content: center;
+    bottom: 150px;
+    font-size: 50px;
+}
+.firstRow form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+}
+.firstRow .i{
+    width: 500px;
+    gap: 10px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    
+}
+.firstRow .i:hover, .firstRow .i:active{
+    border: 1px solid black;
+}
+.firstRow .i input{
+    width: 100%;
+}
+.firstRow .buttons{
+    display: flex;
+    gap: 10px;
+}
+.firstRow .buttons .button {
+    padding: 0px 10px;
+    width: 60px;
+    text-align: center;
+    border: 2px solid transparent;
+   
+}
+.firstRow .buttons .button a{
+    text-decoration: none;
+    color: black;
+}
+.firstRow .buttons .button:first-child{
+    background-color: green;
+}
+.firstRow .buttons .button:nth-child(2){
+    background-color: rgb(184, 1, 1);
+}
+.firstRow .buttons .button:nth-child(1):hover{
+    background-color: rgb(2, 192, 2);
+    border: 2px solid black;
+}
+.firstRow .buttons .button:nth-child(2):hover{
+    background-color: red;
+    border: 2px solid black;
+}
+.secondRow{
+    display: flex;
+    flex-direction: column;
+}
+.secondRow li{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.secondRow ul button a{
+    text-decoration: none;
+    background-color: transparent;
+    color:red;
+}
+
